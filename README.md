@@ -5,16 +5,14 @@ This is [tefter.io](https://tefter.io), running in an [Electron](https://electro
 ## Downloads
 
 | Linux                                 | macOS                            | Windows                              |
--------------------------------------------------------------------------------------------------------------------
+----------------------------------------|----------------------------------|----------------------------------------
 | 📦 [tefter-0.1.0.linux.tar.gz][linux] | 📦 [tefter-0.1.0.macos.zip][mac] | 📦 [tefter-0.1.0.win32.zip][windows] |
 
 ![Screenshot](https://github.com/tefter/desktop/raw/master/screenshots/tefter_desktop.png)
 
 ## What about a native app?
 
-Maybe. For now here's cat gif.
-
-![cat](https://media1.giphy.com/media/fdS8al30MFz8Z2416E/giphy.gif?cid=3640f6095c5ebdac776f467249bdbe4b)
+Maybe. 
 
 ## Support
 
