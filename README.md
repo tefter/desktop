@@ -6,7 +6,7 @@ This is [tefter.io](https://tefter.io), running in an [Electron](https://electro
 
 | Linux                                 | macOS                            | Windows                              |
 ----------------------------------------|----------------------------------|----------------------------------------
-| 📦 [tefter-0.1.0.linux.tar.gz][linux] | 📦 [tefter-0.1.0.macos.zip][mac] | 📦 [tefter-0.1.0.win32.zip][windows] |
+| 📦 [tefter-0.1.0.linux.tar.gz][linux] | 📦 [tefter-0.1.0.dmg][mac] | 📦 [tefter-0.1.0.win32.zip][windows] |
 
 ![Screenshot](https://github.com/tefter/desktop/raw/master/screenshots/tefter_desktop.png)
 
@@ -25,5 +25,5 @@ Copyright (c) 2019 [tefter.io](https://tefter.io), MIT License.
 See [LICENSE.txt](https://github.com/tefter/desktop/blob/master/LICENSE.txt) for further details.
 
 [linux]: https://github.com/tefter/desktop/raw/master/tefter-0.1.0.linux.tar.gz
-[mac]: https://github.com/tefter/desktop/raw/master/tefter.0.1.0.macos.zip
+[mac]: https://github.com/tefter/desktop/raw/master/tefter.0.1.0.dmg
 [windows]: https://github.com/tefter/desktop/raw/master/tefter-0.1.0.win32.zip
