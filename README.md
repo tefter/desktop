@@ -2,6 +2,8 @@
 
 This is [tefter.io](https://tefter.io), running in an [Electron](https://electronjs.org/) app.
 
+See also our [command-line app][tefter_cli].
+
 ## Downloads
 
 | Linux                                 | macOS                            | Windows                              |
@@ -27,3 +29,4 @@ See [LICENSE.txt](https://github.com/tefter/desktop/blob/master/LICENSE.txt) for
 [linux]: https://github.com/tefter/desktop/raw/master/tefter-0.1.0.linux.tar.gz
 [mac]: https://github.com/tefter/desktop/raw/master/tefter.0.1.0.dmg
 [windows]: https://github.com/tefter/desktop/raw/master/tefter-0.1.0.win32.zip
+[tefter_cli]: https://github.com/tefter/cli
