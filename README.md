@@ -27,6 +27,6 @@ Copyright (c) 2019 [tefter.io](https://tefter.io), MIT License.
 See [LICENSE.txt](https://github.com/tefter/desktop/blob/master/LICENSE.txt) for further details.
 
 [linux]: https://github.com/tefter/desktop/raw/master/tefter-0.1.0.linux.tar.gz
-[mac]: https://github.com/tefter/desktop/raw/master/tefter.0.1.0.dmg
+[mac]: https://github.com/tefter/desktop/raw/master/tefter-0.1.0.dmg
 [windows]: https://github.com/tefter/desktop/raw/master/tefter-0.1.0.win32.zip
 [tefter_cli]: https://github.com/tefter/cli
