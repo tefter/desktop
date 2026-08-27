@@ -10,6 +10,8 @@ and position. The app identifies itself as `tefter-desktop/<version>`.
 
 See also our [command-line app](https://github.com/tefter/cli).
 
+![Screenshot](screenshots/tefter_desktop.png)
+
 ## Downloads
 
 Grab the build for your platform from
