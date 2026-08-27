@@ -1,32 +1,41 @@
 # Tefter Desktop
 
-This is [tefter.io](https://tefter.io), running in an [Electron](https://electronjs.org/) app.
+[tefter.io](https://tefter.io) in a desktop window, built with
+[Tauri](https://tauri.app). It renders in your system's webview, so the app
+stays as current as your OS — the lesson of its predecessor, a 2019
+Electron build whose bundled Chromium aged out from under it.
 
-See also our [command-line app][tefter_cli].
+External links open in your regular browser. The window remembers its size
+and position. The app identifies itself as `tefter-desktop/<version>`.
+
+See also our [command-line app](https://github.com/tefter/cli).
 
 ## Downloads
 
-| Linux                                 | macOS                            | Windows                              |
-----------------------------------------|----------------------------------|----------------------------------------
-| 📦 [tefter-0.1.0.linux.tar.gz][linux] | 📦 [tefter-0.1.0.dmg][mac] | 📦 [tefter-0.1.0.win32.zip][windows] |
+Grab the build for your platform from
+[Releases](https://github.com/tefter/desktop/releases).
 
-![Screenshot](https://github.com/tefter/desktop/raw/master/screenshots/tefter_desktop.png)
+## Building
 
-## What about a native app?
+Prerequisites: [Rust](https://rustup.rs), Node.js, and on Linux the
+[Tauri system dependencies](https://tauri.app/start/prerequisites/)
+(`libwebkit2gtk-4.1-dev`, `libgtk-3-dev`, `build-essential`, `libssl-dev`,
+`librsvg2-dev`).
 
-Maybe. 
+```shell
+npm install
+npm run tauri build
+```
 
-## Support
+The bundles land in `src-tauri/target/release/bundle/`. For development,
+`npm run tauri dev` opens the window straight away.
 
-To report bugs or ask questions please either open an issue or shoot an
-[email](mailto:support@tefter.io).
+## Releasing
+
+Push a `v*` tag; the GitHub Actions workflow builds Linux, macOS and
+Windows bundles and attaches them to a draft release.
 
 ## License
 
-Copyright (c) 2019 [tefter.io](https://tefter.io), MIT License.
+Copyright (c) [tefter.io](https://tefter.io), MIT License.
 See [LICENSE.txt](https://github.com/tefter/desktop/blob/master/LICENSE.txt) for further details.
-
-[linux]: https://github.com/tefter/desktop/raw/master/tefter-0.1.0.linux.tar.gz
-[mac]: https://github.com/tefter/desktop/raw/master/tefter-0.1.0.dmg
-[windows]: https://github.com/tefter/desktop/raw/master/tefter-0.1.0.win32.zip
-[tefter_cli]: https://github.com/tefter/cli

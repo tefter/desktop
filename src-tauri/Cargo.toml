@@ -1,0 +1,19 @@
+[package]
+name = "tefter-desktop"
+version = "0.2.0"
+description = "tefter.io in a desktop window"
+license = "MIT"
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-window-state = "2"
+open = "5"
+
+[profile.release]
+codegen-units = 1
+lto = true
+strip = true
