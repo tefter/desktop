@@ -40,4 +40,4 @@ Windows bundles and attaches them to a draft release.
 ## License
 
 Copyright (c) [tefter.io](https://tefter.io), MIT License.
-See [LICENSE.txt](https://github.com/tefter/desktop/blob/master/LICENSE.txt) for further details.
+See [LICENSE.txt](LICENSE.txt) for further details.
